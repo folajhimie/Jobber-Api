@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>techNotes API</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div style="width: 100%; background-color: #f3f9ff; padding: 5rem 0">
+      <div style="max-width: 700px; background-color: white; margin: 0 auto">
+          <div style="width: 100%; background-color: #00efbc; padding: 20px 0">                
+              <div style="display: flex; justify-content: center; width: 100%; margin-top: 0.75rem;">
+                  
+                  <div
+                    style="margin: 0.25rem; width:30px; height:30px"
+                  >
+
+                    <img src='../assets/images/fontIcon/icon.png' alt="jobber" width="50px" height="50px" />
+
+                  </div>
+
+                  <span style="background-color: transparent; margin-top: 0.75rem; margin-right: 1.75rem; position: relative; bottom: 1.50rem; left: 1rem;">
+                    <img src='../assets/images/fontIcon/logo.png' alt="jobber" width="180px" height="80px" />
+                  </span>
+              </div>
+          </div>
+
+
+          <div style="width: 100%; padding: 30px 0; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+            <div style="font-size: .8rem; margin: 0 30px">
+              <p style="font-weight: 800; font-size: 1.2rem; padding: 0 0px">
+              Jobber 
+              </p>
+              <h2 style="font-size: .90rem; font-weight: 500;">Dear ${user.username}!</h2>
+              <p style="font-size: .90rem; font-weight: 500;">We are excited to have you on Jobber website.</p>
+              <p style="font-size: 1rem; font-weight: 500;">Press <a href=${currentUrl + "/reset-password"}> here</a> to proceed.</p>
+  
+              <p style="font-size: 1rem; font-weight: 500;">This OTP Code would expire in 30 minutes.</p>
+              <p style="font-size: 1rem; font-weight: 500;">And your reset code is <b>${resetCode}</b>.</p>  
+              <p style="font-size: 1rem; font-weight: 500;">if you did not request a password reset. no further action is required</p>
+      
+              <p style="font-size: 1rem; font-weight: 500;">Regards...</p>
+              <p style="font-size: 1rem; font-weight: 500;">Jobber</p>
+              <div
+                style="height: 40px; background-color: gainsboro; width: 100%; margin-top: 50px; margin-bottom: 20px; border-radius: 0px 0px 20px 20px;"
+              ></div>
+            </div>
+
+
+            <div style="font-size: .8rem; margin: 0 0px; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+              <div style="font-weight: 800; font-size: 1.2rem; padding: 0 0px; display: flex;">
+                <p style="margin-right: 20px; font-size: 1rem; padding: 0 0px; font-weight: 500;">About Us</p>
+                <p style="margin-right: 20px; font-size: 1rem; padding: 0 0px; font-weight: 500;">Pricing</p>  
+                <p style="margin-right: 20px; font-size: 1rem; padding: 0 0px; font-weight: 500;">Company</p>
+              </div>
+              <div style="font-weight: 800; font-size: 1.2rem; padding: 0 0px; display: flex;">
+                <p style="margin-right: 20px; font-size: 1rem; padding: 0 0px; font-weight: 500;">Terms and Conditions</p>
+                <p style="margin-right: 20px; font-size: 1rem; padding: 0 0px; font-weight: 500;">All rights reserved</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
